@@ -1,0 +1,15 @@
+%% -*- mode: erlang -*-
+{application, serial,
+ [
+  {id, "git"}
+ ,{vsn, "0.0.1"}
+ ,{description, "Serial port driver"}
+ ,{modules, []}
+ ,{registered, []}
+ ,{applications,
+   [
+    kernel,
+    stdlib
+   ]}
+ ,{env, []}
+ ]}.
